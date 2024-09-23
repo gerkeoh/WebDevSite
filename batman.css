@@ -1,0 +1,92 @@
+* {
+ font-family: "Lucida Console", "Courier New", monospace; 
+ color: white;
+ text-align: center;
+}
+table {
+  width: 100%;
+}
+th {
+  height: 70px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 102px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #D3D3D3;
+}
+li {
+  border-right: 2px solid #FF0000;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: #111;
+}
+body {
+  background-image: url('https://darkknightnews.com/wp-content/uploads/2019/01/IMG-20190111-WA0000.jpg');/*https://darkknightnews.com/wp-content/uploads/2019/01/IMG-20190111-WA0000.jpg*/
+  background-repeat: 100;
+  background-attachment: fixed;
+  background-size: cover;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+tr:hover {background-color: maroon;
+}
+fieldset {
+    background-color: maroon;
+}
+option {
+    text-align: left;
+    color: black;
+}
+input {
+    text-align: left;
+    color: black;
+}
+textarea {
+    text-align: left;
+    color: black;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+}
+select {
+    text-align: left;
+    color: black;
+}
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
